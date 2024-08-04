@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/rgb_item_layout"
+            android:id="@+id/redLayout"/>
+
+        <include layout="@layout/rgb_item_layout"
+            android:id="@+id/greenLayout"/>
+
+        <include layout="@layout/rgb_item_layout"
+            android:id="@+id/blueLayout"/>
+        <include layout="@layout/rgb_item_layout"
+            android:id="@+id/brightLayout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#6A2323"
+                android:text="Cancel"/>
+            <Button
+                android:id="@+id/pickBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="Pick"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

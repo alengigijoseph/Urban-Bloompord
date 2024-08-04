@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "598526979865",
+    "firebase_url": "https://weed-5b5b0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "weed-5b5b0",
+    "storage_bucket": "weed-5b5b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598526979865:android:981cc64142d8e798c5df88",
+        "android_client_info": {
+          "package_name": "com.example.weed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqk4JKbZ2hEV30kXcmloLGpwSmonW7DNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
